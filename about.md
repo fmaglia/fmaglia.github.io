@@ -1,6 +1,5 @@
 ---
 title: About me
-permalink: /about/
 intro: Bla bli blo ble blu.
 ---
 ### Chi sono
