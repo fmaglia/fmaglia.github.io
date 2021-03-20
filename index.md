@@ -1,5 +1,5 @@
 ---
-title: Homepage
+title: Il blog di Federico Magliani
 ---
 
 ### Chi sono
