@@ -2,5 +2,5 @@ theme: jekyll-theme-hacker
 plugins:
 - jekyll-menus
 
-title: myCustomTitle
-description: myCustomAndDetailedDescription
+title: IA blog
+description: Il blog di Federico Magliani sull'Intelligenza Artificiale
