@@ -1,5 +1,7 @@
 ---
 title: Il blog di Federico Magliani
+description: IA blog
+author: Federico Magliani
 ---
 
 ### Chi sono
