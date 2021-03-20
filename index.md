@@ -3,6 +3,12 @@ title: Il blog di Federico Magliani
 description: IA blog
 author: Federico Magliani
 ---
+<nav class="main-nav">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about/">Blog</a></li>
+  </ul>
+</nav>
 
 ### Chi sono
 
