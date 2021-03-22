@@ -13,7 +13,7 @@ author: Federico Magliani
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a><br> <b>Data:</b> {{post.date | date: "%B %e, %Y"}} - <b>Descrizione:</b> {{ post.description }} <br><b>Introduzione:</b> {{ post.intro }}<br>
+      <a href="{{ post.url }}">{{ post.title }}</a><br> <b>Data:</b> {{post.date | date: "%B %e, %Y"}} <!--- <b>Descrizione:</b> {{ post.description }}--> - <b>Introduzione:</b> {{ post.intro }}<br>
     </li>
   {% endfor %}
 </ul>
