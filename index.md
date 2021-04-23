@@ -4,7 +4,7 @@ description: IA blog
 author: Federico Magliani
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<head>
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DKE7V23TS7"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -21,7 +21,6 @@ _iub.csConfiguration = {"consentOnContinuedBrowsing":false,"perPurposeConsent":t
 <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/stub-v2.js"></script>
 <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
 
-</head>
 <!--Mi chiamo Federico Magliani e sono appassionato di intelligenza artificiale. 
 <br>Dopo aver ricevuto il Ph.D. in visione artificiale nel 2020, ho continuato a lavorare in questo ambito.
 <br>Per maggiori info visita il mio [sito web](http://magliani.altervista.org).-->
