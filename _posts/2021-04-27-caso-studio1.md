@@ -20,6 +20,15 @@ author: Federico Magliani
 
 Ho introdotto nei precedenti post le nozioni necessarie per valutare un primo caso di studio.
 Nello specifico analizzerò il problema di classificazione dei fiori fra _Iris Setosa_, _Virginica_ e _Versicolor_. Come già accennato, il dataset è composto da 150 istanze. Per ognuna di esse vengono fornite due features utili per la classificazione: la lunghezza e la larghezza del sepalo.
+<figure>
+<img src='http://fmaglia.github.io/assets/images/iris.jpg' style="width:60%">
+  <figcaption>Figura 1 - Esempi di <i>Iris Setosa, Virginica e Versicolor</i>. Immagini sotto licenza CC By-SA 4.0. <a href='https://upload.wikimedia.or
+g/wikipedia/commons/1/11/I
+    ris_setosa_2.jpg'>URL1</a>, <a href='https://commons.wikimedi
+a.org/wiki/File:Iris_virgini
+    ca_2.jpg'>URL2</a>, <a href='https://commons.wikimedia.org/w
+iki/File:Iris_versicolor_4.jpg'>URL3</a> </figcaption>
+</figure>
 
 ### Suddivisione del dataset
 
