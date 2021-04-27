@@ -55,6 +55,7 @@ Dalla tabella si evince che relativamente alla classe con meno istanze in fase d
 ### Come migliorare le performance?
 
 Avevo utilizzato solo le prime 2 features a disposizione, ma conviene utilizzare anche le informazioni relative a lunghezza e larghezza del petalo del fiore. Ritorna quindi il discorso, fatto qualche post fa, sulla scelta delle features da utilizzare. In questo caso basta utilizzare tutte le features a disposizione per migliorare il risultato finale di classificazione, ma non sempre sarà così facile. Un buon data scientist sa valutare quali features utilizzare!
+<br>
 Usando tutte e 4 le features ottengo risultati nettamente migliori: accuratezza di classificazione pari a 93.33%.
 
 <img src='http://fmaglia.github.io/assets/images/table3.png' style="width:60%">
