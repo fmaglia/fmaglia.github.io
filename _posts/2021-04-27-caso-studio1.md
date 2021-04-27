@@ -24,7 +24,7 @@ Nello specifico analizzerò il problema di classificazione dei fiori fra Iris Se
 ### Suddivisione del dataset
 
 Ho suddiviso il dataset in train e test: l’80% delle istanze le ho inserite nel training set e il rimanente 20% le ho inserite nel test set.
-Ho deciso di utilizzare l’algoritmo presentato nel post precedente ovvero SVM.
+Ho deciso di utilizzare, per trattare il problema di classificazione, l’algoritmo presentato nel post precedente ovvero SVM.
 
 ### Risultati
 
