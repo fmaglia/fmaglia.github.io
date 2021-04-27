@@ -43,8 +43,8 @@ La matrice di confusione risultante è stata la seguente:
 
 <br>
 Da questa tabella si evince che per la classe _Iris Setosa_ il metodo usato non commette nessun errore di classificazione. Per quanto riguarda la classe _Iris Virginica_ vengono commessi 4 errori perché 4 istanze della classe _Iris Virginica_ vengono classificate come _Iris Versicolor_. Infine, per l’ultima classe viene commesso un solo errore di classificazione. Da ciò si può quindi evincere che la classe che presenta maggiori difficoltà ad essere correttamente individuata è _Iris Virginica_.
-<br>
-Un’interessante analisi è quella che si può fare su come le istanze del dataset siano suddivise in training e test set. La regola aurea è che il numero di istanze di ogni classe dovrebbe essere lo stesso. Serve per evitare problemi in fase di addestramento che si ripercuotono poi in fase di classificazione. Se il metodo di classificazione vede più esempi in fase di addestramento, ci saranno poi maggiori possibilità che classifichi gli elementi del test con l’etichetta della classe più popolosa del training set. In questo caso le istanze sono state suddivise in questa maniera:
+<br><br>
+Un’interessante analisi è quella che si può fare su come le istanze del dataset siano suddivise in training e test set. La regola aurea è che il numero di istanze di ogni classe dovrebbe essere lo stesso. Serve per evitare problemi in fase di addestramento che si ripercuotono poi in fase di classificazione. Se il metodo di classificazione vede più esempi in fase di addestramento, ci saranno poi maggiori possibilità che classifichi gli elementi del test con l’etichetta della classe più popolosa del training set. In questo caso le istanze sono state suddivise casualmente in questa maniera:
 
 <img src='http://fmaglia.github.io/assets/images/table2.png' style="width:60%">
 
