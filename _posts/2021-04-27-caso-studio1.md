@@ -28,15 +28,21 @@ Ho deciso di utilizzare, per trattare il problema di classificazione, l’algori
 
 ### Risultati
 
-L’accuratezza di classificazione ottenuta è stata pari a 83.33%. Questa metrica misura la percentuale di corrette classificazioni svolte dall’algoritmo utilizzato. Nel caso in esame significa che su 30 immagini presenti nel test set 25 sono classificate correttamente, mentre 5 sono errate. Per incrementare questo valore possono essere necessari maggiori elementi nel training set oppure l’utilizzo di un set diverso di features o l’adozione di una strategia più efficace per la risoluzione del problema.
+L’<b>accuratezza di classificazione</b> ottenuta è stata pari a 83.33%. Questa metrica misura la percentuale di corrette classificazioni svolte dall’algoritmo utilizzato. Nel caso in esame significa che su 30 immagini presenti nel test set 25 sono classificate correttamente, mentre 5 sono errate. Per incrementare questo valore possono essere necessari:
+* maggiori elementi nel training set;
+* l’utilizzo di un set diverso di features;
+* l’adozione di una strategia più efficace per la risoluzione del problema.
 
 <br>
-La matrice di confusione mostra in forma tabellare la suddivisione delle classificazioni per classe. 
+La <b>matrice di confusione</b> mostra in forma tabellare la suddivisione delle classificazioni per classe. 
 Aiuta quindi il data scientist a capire in quali classi l’algoritmo commette errori di classificazione.
 La matrice di confusione risultante è stata la seguente:
 
-TABELLA
-
+<table><tr><td>&nbsp; <td> Iris Setosa <td> Iris Virginica <td> Iris Versicolor
+  <tr><td> Iris Setosa <td> 10 <td> 0 <td> 0
+  <tr><td> Iris Virginica <td> 0 <td> 7 <td> 4
+  <tr><td> Iris Versicolor <td> 0 <td> 1 <td> 8
+</table>
 <br>
 Da questa tabella si evince che per la classe Iris Setosa il metodo usato non commette nessun errore di classificazione. Per quanto riguarda la classe Iris Virginica vengono commessi 4 errori perché 4 istanze della classe Iris Virginica vengono classificate come Iris Versicolor. Infine, per l’ultima classe viene commesso un solo errore di classificazione. Da ciò si può quindi evincere che la classe che presenta maggiori difficoltà ad essere correttamente individuata è Iris Virginica.
 <br>
