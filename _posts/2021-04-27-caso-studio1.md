@@ -23,11 +23,7 @@ Nello specifico analizzerò il problema di classificazione dei fiori fra _Iris S
 <figure>
 <img src='http://fmaglia.github.io/assets/images/iris.jpg' style="width:60%">
   <figcaption>Figura 1 - Esempi di <i>Iris Setosa, Virginica e Versicolor</i>. Immagini sotto licenza CC By-SA 4.0. <a href='https://upload.wikimedia.or
-g/wikipedia/commons/1/11/I
-    ris_setosa_2.jpg'>URL1</a>, <a href='https://commons.wikimedi
-a.org/wiki/File:Iris_virgini
-    ca_2.jpg'>URL2</a>, <a href='https://commons.wikimedia.org/w
-iki/File:Iris_versicolor_4.jpg'>URL3</a> </figcaption>
+g/wikipedia/commons/1/11/Iris_setosa_2.jpg'>URL1</a>, <a href='https://commons.wikimedia.org/wiki/File:Iris_virginica_2.jpg'>URL2</a>, <a href='https://commons.wikimedia.org/wiki/File:Iris_versicolor_4.jpg'>URL3</a> </figcaption>
 </figure>
 
 ### Suddivisione del dataset
