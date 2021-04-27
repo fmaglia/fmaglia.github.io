@@ -19,7 +19,7 @@ author: Federico Magliani
 ### Ricapitolando
 
 Ho introdotto nei precedenti post le nozioni necessarie per valutare un primo caso di studio.
-Nello specifico analizzerò il problema di classificazione dei fiori fra Iris Setosa, Virginica e Versicolor. Come già accennato, il dataset è composto da 150 istanze. Per ognuna di esse vengono fornite due features utili per la classificazione: la lunghezza e la larghezza del sepalo.
+Nello specifico analizzerò il problema di classificazione dei fiori fra _Iris Setosa_, _Virginica_ e _Versicolor_. Come già accennato, il dataset è composto da 150 istanze. Per ognuna di esse vengono fornite due features utili per la classificazione: la lunghezza e la larghezza del sepalo.
 
 ### Suddivisione del dataset
 
@@ -42,7 +42,7 @@ La matrice di confusione risultante è stata la seguente:
 
 
 <br>
-Da questa tabella si evince che per la classe Iris Setosa il metodo usato non commette nessun errore di classificazione. Per quanto riguarda la classe Iris Virginica vengono commessi 4 errori perché 4 istanze della classe Iris Virginica vengono classificate come Iris Versicolor. Infine, per l’ultima classe viene commesso un solo errore di classificazione. Da ciò si può quindi evincere che la classe che presenta maggiori difficoltà ad essere correttamente individuata è Iris Virginica.
+Da questa tabella si evince che per la classe _Iris Setosa_ il metodo usato non commette nessun errore di classificazione. Per quanto riguarda la classe _Iris Virginica_ vengono commessi 4 errori perché 4 istanze della classe _Iris Virginica_ vengono classificate come _Iris Versicolor_. Infine, per l’ultima classe viene commesso un solo errore di classificazione. Da ciò si può quindi evincere che la classe che presenta maggiori difficoltà ad essere correttamente individuata è _Iris Virginica_.
 <br>
 Un’interessante analisi è quella che si può fare su come le istanze del dataset siano suddivise in training e test set. La regola aurea è che il numero di istanze di ogni classe dovrebbe essere lo stesso. Serve per evitare problemi in fase di addestramento che si ripercuotono poi in fase di classificazione. Se il metodo di classificazione vede più esempi in fase di addestramento, ci saranno poi maggiori possibilità che classifichi gli elementi del test con l’etichetta della classe più popolosa del training set. In questo caso le istanze sono state suddivise in questa maniera:
 
@@ -54,12 +54,12 @@ Dalla tabella si evince che relativamente alla classe con meno istanze in fase d
 
 ### Come migliorare le performance?
 
-Avevo utilizzato solo le prime 2 features a disposizione. Ritorna quindi il discorso, fatto qualche post fa, sulla scelta delle features da utilizzare. In questo caso basta utilizzare tutte le features a disposizione, ma non sempre sarà così facile. Un buon data scientist sa valutare quali features utilizzare!
-Usando, invece, tutte e 4 le features ottengo risultati nettamente migliori: accuratezza di classificazione pari a 93.33%
+Avevo utilizzato solo le prime 2 features a disposizione, ma conviene utilizzare anche le informazioni relative a lunghezza e larghezza del petalo del fiore. Ritorna quindi il discorso, fatto qualche post fa, sulla scelta delle features da utilizzare. In questo caso basta utilizzare tutte le features a disposizione per migliorare il risultato finale di classificazione, ma non sempre sarà così facile. Un buon data scientist sa valutare quali features utilizzare!
+Usando tutte e 4 le features ottengo risultati nettamente migliori: accuratezza di classificazione pari a 93.33%.
 
 <img src='http://fmaglia.github.io/assets/images/table3.png' style="width:60%">
 
-Solo due errori nella classificazione dell’Iris Virginica.
+Solo due errori nella classificazione dell’_Iris Virginica_.
 
 [Homepage](../../../index)
  
