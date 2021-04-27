@@ -38,11 +38,7 @@ La <b>matrice di confusione</b> mostra in forma tabellare la suddivisione delle 
 Aiuta quindi il data scientist a capire in quali classi l’algoritmo commette errori di classificazione.
 La matrice di confusione risultante è stata la seguente:
 
-<table><tr><td>&nbsp; <td> Iris Setosa <td> Iris Virginica <td> Iris Versicolor
-  <tr><td> Iris Setosa <td> 10 <td> 0 <td> 0
-  <tr><td> Iris Virginica <td> 0 <td> 7 <td> 4
-  <tr><td> Iris Versicolor <td> 0 <td> 1 <td> 8
-</table>
+
 <br>
 Da questa tabella si evince che per la classe Iris Setosa il metodo usato non commette nessun errore di classificazione. Per quanto riguarda la classe Iris Virginica vengono commessi 4 errori perché 4 istanze della classe Iris Virginica vengono classificate come Iris Versicolor. Infine, per l’ultima classe viene commesso un solo errore di classificazione. Da ciò si può quindi evincere che la classe che presenta maggiori difficoltà ad essere correttamente individuata è Iris Virginica.
 <br>
