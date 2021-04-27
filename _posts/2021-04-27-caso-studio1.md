@@ -38,13 +38,16 @@ La <b>matrice di confusione</b> mostra in forma tabellare la suddivisione delle 
 Aiuta quindi il data scientist a capire in quali classi l’algoritmo commette errori di classificazione.
 La matrice di confusione risultante è stata la seguente:
 
+<img src='http://fmaglia.github.io/assets/images/table1.png' style="width:60%">
+
 
 <br>
 Da questa tabella si evince che per la classe Iris Setosa il metodo usato non commette nessun errore di classificazione. Per quanto riguarda la classe Iris Virginica vengono commessi 4 errori perché 4 istanze della classe Iris Virginica vengono classificate come Iris Versicolor. Infine, per l’ultima classe viene commesso un solo errore di classificazione. Da ciò si può quindi evincere che la classe che presenta maggiori difficoltà ad essere correttamente individuata è Iris Virginica.
 <br>
 Un’interessante analisi è quella che si può fare su come le istanze del dataset siano suddivise in training e test set. La regola aurea è che il numero di istanze di ogni classe dovrebbe essere lo stesso. Serve per evitare problemi in fase di addestramento che si ripercuotono poi in fase di classificazione. Se il metodo di classificazione vede più esempi in fase di addestramento, ci saranno poi maggiori possibilità che classifichi gli elementi del test con l’etichetta della classe più popolosa del training set. In questo caso le istanze sono state suddivise in questa maniera:
 
-TABELLA
+<img src='http://fmaglia.github.io/assets/images/table2.png' style="width:60%">
+
 
 <br>
 Dalla tabella si evince che relativamente alla classe con meno istanze in fase di training si commettono poi più errori in fase di test.
@@ -54,7 +57,7 @@ Dalla tabella si evince che relativamente alla classe con meno istanze in fase d
 Avevo utilizzato solo le prime 2 features a disposizione. Ritorna quindi il discorso, fatto qualche post fa, sulla scelta delle features da utilizzare. In questo caso basta utilizzare tutte le features a disposizione, ma non sempre sarà così facile. Un buon data scientist sa valutare quali features utilizzare!
 Usando, invece, tutte e 4 le features ottengo risultati nettamente migliori: accuratezza di classificazione pari a 93.33%
 
-ULTIMA TABELLA
+<img src='http://fmaglia.github.io/assets/images/table3.png' style="width:60%">
 
 Solo due errori nella classificazione dell’Iris Virginica.
 
