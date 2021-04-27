@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Caso di studio #1 - Iris dataset
+title: Caso di studio su Iris dataset
 tags: apprendimento-automatico IA intelligenza-artificiale
 description: Un esempio pratico di come le macchine risolvono problemi di classificazioni
 intro: Caso di studio, in cui verrà trattato un problema reale di classificazione
