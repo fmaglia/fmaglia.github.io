@@ -80,8 +80,8 @@ significativamente all’aumentare della differenza fra valore calcolato dall’
 Visto che devo determinare sia l’ascissa che l’ordinata del punto centrale del quadrato avrò quindi un errore distinto per entrambi i campi.
 I risultati ottenuti come si può evincere anche visivamente sono discreti, ma non eccellenti.
 Considerando che le immagini hanno dimensione 400x400 e il MAE è di circa 23 pixel allora l'errore medio è circa il 6%.
-Nel prossimo post vi spiegherò come fare per migliorare questo risultato, raggiungendo errori che tendono allo zero. Non perdetevi il prossimo post!
 
+Nel prossimo post vi spiegherò come fare per migliorare questo risultato, raggiungendo errori che tendono allo zero. Non perdetevi il prossimo post!
 
 [Homepage](../../../index)
  
