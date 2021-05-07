@@ -2,8 +2,8 @@
 layout: post
 title: Esempio di regressione
 tags: apprendimento-automatico IA intelligenza-artificiale
-description: Un esempio pratico di come le macchine risolvono problemi di rgressione
-intro: Caso di studio, in cui verrà trattato un problema reale di regressione
+description: Un esempio pratico di come le macchine risolvono tramite algoritmi di IA i problemi di regressione
+intro: Caso di studio, in cui verrà trattato un problema reale di regressione tramite l'applicazione di un algoritmo di IA
 author: Federico Magliani
 ---
 
