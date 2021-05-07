@@ -33,6 +33,8 @@ Ho realizzato una gif con le immagini delle istanze del training set per aiutare
   <figcaption>Figura 1 - training set. </figcaption>
 </figure>
 
+### Procedimento adottato
+
 Per risolvere il problema ho adottato l’algoritmo SVR, che è la versione dell’algoritmo di classificazione SVM idoneo a risolvere i problemi di regressione.
 Ho utilizzato la versione dell’algoritmo disponibile nella libreria python sklearn.
 
@@ -54,7 +56,7 @@ Esempio di groun truth:
 * TRAIN - Square 5 Point A 77 40 Point B 135 98 Center point 106 69
 * ...
 
-Il punto A è quello in alto a sinistra, mentre il punto B è quello in basso a destra.
+Il punto A è sempre quello in alto a sinistra, mentre il punto B è sempre quello che si trova in basso a destra.
 
 
 <figure>
@@ -62,13 +64,13 @@ Il punto A è quello in alto a sinistra, mentre il punto B è quello in basso a 
   <figcaption>Figura 2 - test set. </figcaption>
 </figure>
 
-Per valutare la qualità del modello proposto ho utilizzato due indicatori comuni: Mean Squared Error e Mean Absolute Error.
+Per valutare la qualità del modello proposto ho utilizzato due indicatori comuni: <b>Mean Squared Error</b> e <b>Mean Absolute Error</b>.
 
 ### Definizioni
 
-* Mean Squared Error: indica la discrepanza quadratica media fra i valori dei dati osservati ed i valori dei dati stimati (da Wikipedia). Tende ad aumentare
+* <b>Mean Squared Error</b>: indica la discrepanza quadratica media fra i valori dei dati osservati ed i valori dei dati stimati (da Wikipedia). Tende ad aumentare
 significativamente all’aumentare della differenza fra valore calcolato dall’algoritmo e valore del ground truth.
-* Mean Absolute Error: indica la media fra i valori dei dati osservati ed i valori dei dati stimati. Tende a crescere meno significativamente rispetto al MSE all’aumentare della differenza fra valore calcolato e valore del ground truth.
+* <b>Mean Absolute Error</b>: indica la media fra i valori dei dati osservati ed i valori dei dati stimati. Tende a crescere meno significativamente rispetto al MSE all’aumentare della differenza fra valore calcolato e valore del ground truth.
 
 
 ### Risultati
@@ -76,6 +78,8 @@ significativamente all’aumentare della differenza fra valore calcolato dall’
 <img src='http://fmaglia.github.io/assets/images/table4.png' style="width:60%">
 
 Visto che devo determinare sia l’ascissa che l’ordinata del punto centrale del quadrato avrò quindi un errore distinto per entrambi i campi.
+I risultati ottenuti come si può evincere anche visivamente sono discreti, ma non eccellenti.
+Considerando che le immagini hanno dimensione 400x400 e il MAE è di circa 23 pixel allora l'errore medio è circa il 6%.
 Nel prossimo post vi spiegherò come fare per migliorare questo risultato, raggiungendo errori che tendono allo zero. Non perdetevi il prossimo post!
 
 
