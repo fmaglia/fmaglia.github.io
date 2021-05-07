@@ -29,7 +29,7 @@ del secondo punto.
 Ho realizzato una gif con le immagini delle istanze del training set per aiutare nella comprensione del problema.
 
 <figure>
-<img src='http://fmaglia.github.io/assets/images/train.gif' style="width:60%">
+<img src='http://fmaglia.github.io/assets/images/train.gif' style="width:45%">
   <figcaption>Figura 1 - training set. </figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ Il punto A è sempre quello in alto a sinistra, mentre il punto B è sempre quel
 
 
 <figure>
-<img src='http://fmaglia.github.io/assets/images/test.gif' style="width:60%">
+<img src='http://fmaglia.github.io/assets/images/test.gif' style="width:45%">
   <figcaption>Figura 2 - test set. </figcaption>
 </figure>
 
