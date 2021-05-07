@@ -17,17 +17,16 @@ author: Federico Magliani
 </script>
 
 ### Ricapitolando
-
-Piccolo ripasso per chi si fosse perso le puntate precedenti: nei problemi di regressione, l’obiettivo è quello di determinare un valore continuo avendo a
+Nei problemi di regressione, l’obiettivo è quello di determinare un valore continuo avendo a
 disposizione solo valori continui. È quindi differente dal problema di classificazione, in cui dobbiamo decidere se ogni istanza appartiene alla classe 1, alla classe 2, .. alla
 classe N.
 
+### Problema
 
 In questo articolo voglio proporre un semplice problema di regressione.
-Dati in input il vertice sinistro alto e il vertice destro basso di un quadrato, voglio calcolare il centro dello stesso. Il mio dataset è composto da 450 istanze. Utilizzerò
-400 istanze per il training del modello e 50 per il test. In ogni istanza del dataset ho variato randomicamente: dimensioni del quadrato, ascissa del primo punto e ordinata
+Dati in input il vertice sinistro alto e il vertice destro basso di un quadrato, voglio calcolare il centro dello stesso. Il mio dataset è composto da 450 istanze di dimensioni 400x400. Utilizzerò 400 istanze per il training del modello e 50 per il test. In ogni istanza del dataset ho variato randomicamente: dimensioni del quadrato, ascissa del primo punto e ordinata
 del secondo punto. 
-Ho realizzato le immagini delle istanze del training set per aiutare nella comprensione del problema.
+Ho realizzato una gif con le immagini delle istanze del training set per aiutare nella comprensione del problema.
 
 <figure>
 <img src='http://fmaglia.github.io/assets/images/train.gif' style="width:60%">
@@ -38,8 +37,8 @@ Per risolvere il problema ho adottato l’algoritmo SVR, che è la versione dell
 Ho utilizzato la versione dell’algoritmo disponibile nella libreria python sklearn.
 
 Ho quindi testato il mio metodo sulle istanze del test set.
-Inserisco l’immagine dei risultati ottenuti. Il punto verde indica la predizione svolta dal SVR, mentre il punto blu indica il ground truth calcolato tra la formula del punto
-medio.
+Inserisco l’immagine dei risultati ottenuti. 
+Il punto verde indica la predizione svolta dal SVR, mentre il punto blu indica il ground truth calcolato tramite la formula del punto medio.
 
 ### Nota bene
 
@@ -63,25 +62,22 @@ Il punto A è quello in alto a sinistra, mentre il punto B è quello in basso a 
   <figcaption>Figura 2 - test set. </figcaption>
 </figure>
 
-Per valutare la qualità del modello proposto ho utilizzato due indicatori interscambiabili: Mean Squared Error e Mean Absolute Error.
+Per valutare la qualità del modello proposto ho utilizzato due indicatori comuni: Mean Squared Error e Mean Absolute Error.
 
 ### Definizioni
 
 * Mean Squared Error: indica la discrepanza quadratica media fra i valori dei dati osservati ed i valori dei dati stimati (da Wikipedia). Tende ad aumentare
 significativamente all’aumentare della differenza fra valore calcolato dall’algoritmo e valore del ground truth.
-* Mean Absolute Error: indica la media fra i valori dei dati osservati ed i valori dei dati stimati. Tende a crescere meno significativamente rispetto al MSE all’aumentare
-della differenza fra valore calcolato e valore del ground truth.
+* Mean Absolute Error: indica la media fra i valori dei dati osservati ed i valori dei dati stimati. Tende a crescere meno significativamente rispetto al MSE all’aumentare della differenza fra valore calcolato e valore del ground truth.
 
 
 ### Risultati
 
-<img src='http://fmaglia.github.io/assets/images/table2.png' style="width:60%">
+<img src='http://fmaglia.github.io/assets/images/table4.png' style="width:60%">
 
 Visto che devo determinare sia l’ascissa che l’ordinata del punto centrale del quadrato avrò quindi un errore distinto per entrambi i campi.
 Nel prossimo post vi spiegherò come fare per migliorare questo risultato, raggiungendo errori che tendono allo zero. Non perdetevi il prossimo post!
 
-
-In questo caso le istanze sono state suddivise casualmente in questa maniera:
 
 [Homepage](../../../index)
  
