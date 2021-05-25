@@ -58,10 +58,9 @@ Anche in questo caso la capacità e l’esperienza del data scientist è di vita
 
 Perché utilizzare le reti neurali per risolvere il problema in esame?
 <br>Per via del teorema di approssimazione universale.
-<br>“Afferma che una rete con un singolo strato nascosto può approssimare qualsiasi funzione continua, ma non da alcuna indicazione su come ottenerla, come istruirla e
-se un singolo strato sia la scelta più efficiente.”
+<br>“Afferma che una rete con un singolo strato nascosto può approssimare qualsiasi funzione continua, ma non da alcuna indicazione su come ottenerla, come istruirla e se un singolo strato sia la scelta più efficiente.”
 <br>
-Come sempre ho utilizzato la versione delle artificial neural network proposta da sklearn.
+Come sempre ho utilizzato la versione delle artificial neural network proposta da <a href='https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html' target='_blank'>sklearn</a>.
 
 
 
@@ -70,12 +69,18 @@ Come sempre ho utilizzato la versione delle artificial neural network proposta d
   <figcaption>Figura 2 - immagini del test set. Il punto blu rappresenta il centro del quadrato calcolato tramite la formula del punto medio, mentre il punto verde rappresenta il risultato predetto dalla rete neurale. </figcaption>
 </figure>
 
+### Informazioni sulla rete
+
+Ho utilizzato una rete neurale con 4 neuroni per l' input (x1, y1, x2, y2) e 2 neuroni per l'output (xc, yc).
+Il numero di neuroni nell'hidden layer è pari a 100.
+<br>Ho allenato la rete per 500 epoche.
+
 
 ### Risultati
 
 <img src='http://fmaglia.github.io/assets/images/table5.png' style="width:60%">
 
-Visto? Risultati decisamente interessanti!
+Visto? Risultati decisamente interessanti! La rete è riuscita ad imparare a predire correttamente nelle varie situazioni il punto centrale del quadrato.
 <br>Come mai, utilizzando le reti neurali, MSE è minore di MAE? 
 <br>Essendo le discrepanze molto piccole (minori di 1), il quadrato di questo valore sarà ancora più piccolo.
 
