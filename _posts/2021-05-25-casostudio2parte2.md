@@ -2,8 +2,8 @@
 layout: post
 title: Esempio di regressione (seconda parte)
 tags: apprendimento-automatico IA intelligenza-artificiale
-description: Come le reti neurali abbiano migliorato la vita dei data scientist
-intro: Come le reti neurali abbiano migliorato la vita dei data scientist
+description: Come le reti neurali hanno migliorato la vita dei data scientist
+intro: Come le reti neurali hanno migliorato la vita dei data scientist
 author: Federico Magliani
 ---
 
