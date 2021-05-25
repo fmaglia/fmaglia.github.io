@@ -54,6 +54,9 @@ Ho utilizzato queste due loss perché sto trattando un problema di regressione. 
 ### Come progettare la rete (i vari livelli) e il numero di neuroni?
 
 Anche in questo caso la capacità e l’esperienza del data scientist è di vitale importanza.
+<br>In questo caso specifico, ho utilizzato una rete neurale con 4 neuroni per l' input (x1, y1, x2, y2) e 2 neuroni per l'output (xc, yc).
+Il numero di neuroni nell'hidden layer è pari a 100.
+<br>Ho allenato la rete per 500 epoche.
 
 ### Teorema di approssimazione universale
 
@@ -70,11 +73,6 @@ Come sempre ho utilizzato la versione delle artificial neural network proposta d
   <figcaption>Figura 2 - immagini del test set. Il punto blu rappresenta il centro del quadrato calcolato tramite la formula del punto medio, mentre il punto verde rappresenta il risultato predetto dalla rete neurale. </figcaption>
 </figure>
 
-### Informazioni sulla rete
-
-Ho utilizzato una rete neurale con 4 neuroni per l' input (x1, y1, x2, y2) e 2 neuroni per l'output (xc, yc).
-Il numero di neuroni nell'hidden layer è pari a 100.
-<br>Ho allenato la rete per 500 epoche.
 
 
 ### Risultati
