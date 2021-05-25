@@ -49,6 +49,7 @@ Nello specifico, la rete neurale cerca di ridurre l’errore fra *risultato otte
 
 Tramite il calcolo e l’uso di una _funzione di loss_.
 Nel caso di studio analizzato, le loss valutate saranno due: MSE loss e MAE loss.
+Ho utilizzato queste due loss perché sto trattando un problema di regressione. Nel caso, avessi trattato un problema di classificazione non le avrei neanche prese in considerazione.
 
 ### Come progettare la rete (i vari livelli) e il numero di neuroni?
 
