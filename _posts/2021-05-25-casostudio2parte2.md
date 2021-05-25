@@ -45,7 +45,7 @@ Immagine sotto licenza CC BY-SA 3.0. <a href='https://commons.wikimedia.org/wiki
 
 Nello specifico, la rete neurale cerca di ridurre l’errore fra *risultato ottenuto* e *valore atteso* (ground truth), modificando i pesi dei vari neuroni.
 
-### Come funziona? 
+### Funzione di loss 
 
 Tramite il calcolo e l’uso di una _funzione di loss_.
 Nel caso di studio analizzato, le loss valutate saranno due: MSE loss e MAE loss.
@@ -65,8 +65,6 @@ Perché utilizzare le reti neurali per risolvere il problema in esame?
 <br>“Afferma che una rete con un singolo strato nascosto può approssimare qualsiasi funzione continua, ma non da alcuna indicazione su come ottenerla, come istruirla e se un singolo strato sia la scelta più efficiente.”
 <br>
 Come sempre ho utilizzato la versione delle artificial neural network proposta da <a href='https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html' target='_blank'>sklearn</a>.
-
-
 
 <figure>
 <img src='http://fmaglia.github.io/assets/images/test_NN.gif' style="width:45%">
