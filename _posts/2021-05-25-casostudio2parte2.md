@@ -17,7 +17,7 @@ author: Federico Magliani
 </script>
 
 ### Ricapitolando
-Nell’ultimo articolo avevo introdotto un caso di studio sulla regressione. 
+Nell’<a href='https://fmaglia.github.io/2021/05/07/casostudio2.html'>ultimo articolo</a> avevo introdotto un caso di studio sulla regressione. 
 Avevo ottenuto risultati discreti utilizzando SVR. 
 Ora voglio proporvi un metodo che riesce ad ottenere risultati nettamente migliori.
 
@@ -72,13 +72,13 @@ Come sempre ho utilizzato la versione delle artificial neural network proposta d
 </figure>
 
 
-
 ### Risultati
 
 <img src='http://fmaglia.github.io/assets/images/table5.png' style="width:60%">
 
 Visto? Risultati decisamente interessanti! La rete è riuscita ad imparare a predire correttamente nelle varie situazioni il punto centrale del quadrato.
 Se analizziamo la MAE possiamo notare che l'errore medio su entrambe le coordinate è di circa 0.3 pixel.
+Rispetto ai risultati ottenuti con SVR nell' <a href='https://fmaglia.github.io/2021/05/07/casostudio2.html'>articolo precedente</a>, la rete neurale ottiene risultati decisamente migliori.
 <br>Come mai, utilizzando le reti neurali, MSE è minore di MAE? 
 <br>Essendo le discrepanze molto piccole (minori di 1), il quadrato di questo valore sarà ancora più piccolo.
 
