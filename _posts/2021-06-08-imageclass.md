@@ -33,12 +33,12 @@ Nel caso di esempio che voglio illustrarvi in questo post ho generato un dataset
 <br>
 <figure>
 <img src='http://fmaglia.github.io/assets/images/train_rectangle.gif' style="width:45%">
-  <figcaption>Figura 1 - Immagini di training per la classe <b>rettangolo</b>. </figcaption>
+  <figcaption>Figura 2 - Immagini di training per la classe <b>rettangolo</b>. </figcaption>
 </figure>
 <br>
 <figure>
 <img src='http://fmaglia.github.io/assets/images/train_square.gif' style="width:45%">
-  <figcaption>Figura 1 - Immagini di training per la classe <b>quadrato</b>. </figcaption>
+  <figcaption>Figura 3 - Immagini di training per la classe <b>quadrato</b>. </figcaption>
 </figure>
 
 Il dataset è stato suddiviso in train set (3000 immagini - 80%) e test set (600 immagini - 20%). È sempre importante che il modello di machine learning abbia dati a disposizione su cui allenarsi. 
@@ -55,7 +55,7 @@ I neuroni sono inizialmente inizializzati con valori randomici, poi nel corso de
 
 <figure>
 <img src='http://fmaglia.github.io/assets/images/CNN.png' style="width:45%">
-  <figcaption>Figura 1 - CNN utilizzata per la risoluzione del problema. </figcaption>
+  <figcaption>Figura 4 - CNN utilizzata per la risoluzione del problema. </figcaption>
 </figure>
 
 
@@ -70,15 +70,19 @@ In questo caso, la rete prevede due livelli in cui viene applicata la convoluzio
 Per implementare la CNN ho utilizzato la libreria PyTorch.
 <br>
 La loss utilizzata è la cross entropy. L’andamento delle training e validation loss è riportato nel grafico seguente.
-
+<figure>
 <img src='http://fmaglia.github.io/assets/images/losses.png' style="width:45%">
-
+  <figcaption>Figura 5 - Sull'asse delle ascisse sono riportate le epoche, mentre sulle asse delle ordinate sono riportati i valori della loss. </figcaption>
+</figure>
 Dopo 6 epoche si può notare che la rete ha già imparato a discriminare e classificare le immagini. Successivamente la loss tende a salire quindi significa che la rete non sta continuando ad apprendere, anzi tende a dimenticare.
 
 ### Risultati
 
+<figure>
 <img src='http://fmaglia.github.io/assets/images/test_accuracy.png' style="width:60%">
-
+  <figcaption>Figura 6 - Sull'asse delle ascisse sono riportate le epoche, mentre sulle asse delle ordinate è riportata l'accuratezza di classificazione. </figcaption>
+</figure>
+  
 Ecco il grafico dell’accuracy. Come si può notare l’accuratezza del modello è di circa *94%*, cioè vuol dire che in oltre 9 casi su 10 la rete riesce a distinguere un’immagine di un cerchio rispetto ad immagini contenenti quadrati o rettangoli.
 Verso la sesta epoca si raggiunge un picco, che è in linea con l’andamento delle loss del grafico precedente.
 
