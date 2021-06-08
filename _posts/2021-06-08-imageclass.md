@@ -55,7 +55,7 @@ I neuroni sono inizialmente inizializzati con valori randomici, poi nel corso de
 
 <figure>
 <img src='http://fmaglia.github.io/assets/images/CNN.png' style="width:45%">
-  <figcaption>Figura 4 - CNN utilizzata per la risoluzione del problema. </figcaption>
+  <figcaption>Figura 4 - CNN utilizzata per la risoluzione del problema. I primi due livelli rappresentano  </figcaption>
 </figure>
 
 
