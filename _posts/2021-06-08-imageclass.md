@@ -84,7 +84,7 @@ Dopo 6 epoche si può notare che la rete ha già imparato a discriminare e class
   <figcaption>Figura 6 - Sull'asse delle ascisse sono riportate le epoche, mentre sulle asse delle ordinate è riportata l'accuratezza di classificazione. </figcaption>
 </figure>
  <br>
-Ecco il grafico dell’accuracy. Come si può notare l’accuratezza del modello è di circa *94%*, cioè vuol dire che in oltre 9 casi su 10 la rete riesce a distinguere un’immagine di un cerchio rispetto ad immagini contenenti quadrati o rettangoli.
+Ecco il grafico dell’accuracy. Come si può notare l’accuratezza del modello è di circa <b>94%</b>, cioè vuol dire che in oltre 9 casi su 10 la rete riesce a distinguere un’immagine di un cerchio rispetto ad immagini contenenti quadrati o rettangoli.
 Verso la sesta epoca si raggiunge un picco, che è in linea con l’andamento delle loss del grafico precedente.
 
 
