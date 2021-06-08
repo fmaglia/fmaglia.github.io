@@ -27,21 +27,21 @@ Nel caso di esempio che voglio illustrarvi in questo post ho generato un dataset
 <br>Le immagini rappresentano le varie forme di dimensioni differenti e traslate nell’immagine in modo casuale. Questa strategia serve per generare un dataset che rispecchi le condizioni reali di un caso di studio e per insegnare all’algoritmo a riconoscere la forma in varie posizioni.
 
 <figure>
-<img src='http://fmaglia.github.io/assets/images/train_circle.gif' style="width:45%">
+<img src='http://fmaglia.github.io/assets/images/train_circle.gif' style="width:50%">
   <figcaption>Figura 1 - Immagini di training per la classe <b>cerchio</b>.</figcaption>
 </figure>
 <br>
 <figure>
-<img src='http://fmaglia.github.io/assets/images/train_rectangle.gif' style="width:45%">
+<img src='http://fmaglia.github.io/assets/images/train_rectangle.gif' style="width:50%">
   <figcaption>Figura 2 - Immagini di training per la classe <b>rettangolo</b>. </figcaption>
 </figure>
 <br>
 <figure>
-<img src='http://fmaglia.github.io/assets/images/train_square.gif' style="width:45%">
+<img src='http://fmaglia.github.io/assets/images/train_square.gif' style="width:50%">
   <figcaption>Figura 3 - Immagini di training per la classe <b>quadrato</b>. </figcaption>
 </figure>
 
-Il dataset è stato suddiviso in train set (3000 immagini - 80%) e test set (600 immagini - 20%). È sempre importante che il modello di machine learning abbia dati a disposizione su cui allenarsi. 
+Il dataset è stato suddiviso in train set (3000 immagini - 83%) e test set (600 immagini - 17%). È sempre importante che il modello di machine learning abbia dati a disposizione su cui allenarsi. 
 La maggior parte degli insuccessi in campo IA sono dovuti alla mancanza di dati. Spesso quindi IA e big data sono correlati, perché solo con tanti dati certi tipi di problemi riescono ad essere affrontati e risolti in maniera efficace. 
 <br>
 Ci sarebbe poi da discutere sul tipo di dati disponibili e sulla loro qualità. 
@@ -54,7 +54,7 @@ Le reti neurali convoluzionali sono un’estensione delle reti neurali artificia
 I neuroni sono inizialmente inizializzati con valori randomici, poi nel corso dell’allenamento del modello variano per adattarsi ai dati dei training.
 
 <figure>
-<img src='http://fmaglia.github.io/assets/images/CNN.png' style="width:45%">
+<img src='http://fmaglia.github.io/assets/images/CNN.png' style="width:60%">
   <figcaption>Figura 4 - CNN utilizzata per la risoluzione del problema. I primi due livelli rappresentano blocchi convolutivi (dopo il primo blocco viene anche applicato il pooling), mentre i successivi blocchi sono fully-connected. </figcaption>
 </figure>
 
@@ -71,7 +71,7 @@ Per implementare la CNN ho utilizzato la libreria PyTorch.
 <br>
 La loss utilizzata è la cross entropy. L’andamento delle training e validation loss è riportato nel grafico seguente.
 <figure>
-<img src='http://fmaglia.github.io/assets/images/losses.png' style="width:45%">
+<img src='http://fmaglia.github.io/assets/images/losses.png' style="width:60%">
   <figcaption>Figura 5 - Sull'asse delle ascisse sono riportate le epoche, mentre sulle asse delle ordinate sono riportati i valori della loss. </figcaption>
 </figure>
 <br>
