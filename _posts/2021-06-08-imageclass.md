@@ -74,6 +74,7 @@ La loss utilizzata è la cross entropy. L’andamento delle training e validatio
 <img src='http://fmaglia.github.io/assets/images/losses.png' style="width:45%">
   <figcaption>Figura 5 - Sull'asse delle ascisse sono riportate le epoche, mentre sulle asse delle ordinate sono riportati i valori della loss. </figcaption>
 </figure>
+<br>
 Dopo 6 epoche si può notare che la rete ha già imparato a discriminare e classificare le immagini. Successivamente la loss tende a salire quindi significa che la rete non sta continuando ad apprendere, anzi tende a dimenticare.
 
 ### Risultati
@@ -82,7 +83,7 @@ Dopo 6 epoche si può notare che la rete ha già imparato a discriminare e class
 <img src='http://fmaglia.github.io/assets/images/test_accuracy.png' style="width:60%">
   <figcaption>Figura 6 - Sull'asse delle ascisse sono riportate le epoche, mentre sulle asse delle ordinate è riportata l'accuratezza di classificazione. </figcaption>
 </figure>
-  
+ <br>
 Ecco il grafico dell’accuracy. Come si può notare l’accuratezza del modello è di circa *94%*, cioè vuol dire che in oltre 9 casi su 10 la rete riesce a distinguere un’immagine di un cerchio rispetto ad immagini contenenti quadrati o rettangoli.
 Verso la sesta epoca si raggiunge un picco, che è in linea con l’andamento delle loss del grafico precedente.
 
